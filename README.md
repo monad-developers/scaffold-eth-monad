@@ -22,7 +22,7 @@
 
 ## Requirements
 
-Before you begin, you need to install the following tools:
+Before you start, install the following tools:
 
 -   [Node (>= v18.18)](https://nodejs.org/en/download/)
 -   Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
@@ -57,7 +57,7 @@ MONAD_EXPLORER_URL=
 
 3. Deploying smart contracts on Monad:
 
-Once the `.env` file is setup, you can now run the below command in your terminal.
+Once the `.env` file is set up,  run the following command in your terminal:.
 
 ```sh
 yarn deploy
@@ -79,7 +79,7 @@ NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=
 yarn start
 ```
 
-Visit your app on: `http://localhost:3000`. You can interact with your smart contract using the `Debug Contracts` page. You can tweak the app config in `packages/nextjs/scaffold.config.ts`.
+Visit your app on: `http://localhost:3000`. You can interact with your smart contract using the `Debug Contracts` page. You can adjust the app configuration in `packages/nextjs/scaffold.config.ts`.
 
 **What's next**:
 
@@ -92,4 +92,4 @@ Visit your app on: `http://localhost:3000`. You can interact with your smart con
 
 Visit our [docs](https://docs.monad.xyz) to learn how to start building with Monad.
 
-To know more about Scaffold-ETH features, check out their [website](https://scaffoldeth.io).
+o learn more about Scaffold-ETH features, visit their [website](https://scaffoldeth.io).

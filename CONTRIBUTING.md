@@ -2,7 +2,7 @@
 
 Thank you for investing your time in contributing to Scaffold-ETH 2!
 
-This guide aims to provide an overview of the contribution workflow to help us make the contribution process effective for everyone involved.
+This guide aims to pprovide an overview of the contribution workflow to make the process effective for everyone.
 
 ## About the Project
 
@@ -20,7 +20,7 @@ The repo can be forked to include integrations and more features, but we want to
 
 The project is under active development.
 
-You can view the open Issues, follow the development process and contribute to the project.
+You can view open issues, follow the development process, and contribute to the project.
 
 ## Getting started
 
@@ -32,7 +32,7 @@ You can contribute to this repo in many ways:
 
 Contributions are made via Issues and Pull Requests (PRs). A few general guidelines for contributions:
 
-- Search for existing Issues and PRs before creating your own.
+- Search for existing issues and PRs before creating a new one.
 - Contributions should only fix/add the functionality in the issue OR address style issues, not both.
 - If you're running into an error, please give context. Explain what you're trying to do and how to reproduce the error.
 - Please use the same formatting in the code repository. You can configure your IDE to do it by using the prettier / linting config files included in each package.
@@ -74,7 +74,7 @@ We follow the ["fork-and-pull" Git workflow](https://github.com/susam/gitpr)
 Here are some tips for a high-quality pull request:
 
 - Create a title for the PR that accurately defines the work done.
-- Structure the description neatly to make it easy to consume by the readers. For example, you can include bullet points and screenshots instead of having one large paragraph.
+- Structure the description neatly to make it easy to read. For example, you can include bullet points and screenshots instead of having one large paragraph.
 - Add the link to the issue if applicable.
 - Have a good commit message that summarises the work done.
 
