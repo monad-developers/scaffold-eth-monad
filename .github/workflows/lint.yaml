@@ -36,7 +36,7 @@ jobs:
           MONAD_RPC_URL: ${{ secrets.URL }}
           MONAD_CHAIN_ID: ${{ secrets.CHAIN_ID }}
           MONAD_EXPLORER_URL: ${{ secrets.EXPLORER }}
-        run: yarn deploy --network monadDevnet
+        run: yarn deploy --network monadTestnet
 
       - name: Run nextjs lint
         run: yarn next:lint --max-warnings=0

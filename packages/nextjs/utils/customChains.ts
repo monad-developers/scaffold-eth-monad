@@ -1,9 +1,9 @@
 import { defineChain } from "viem";
 
 // TODO: Add Chain details here.
-export const monadDevnet = defineChain({
-  id: 41454,
-  name: "Monad Devnet",
+export const monadTestnet = defineChain({
+  id: 10143,
+  name: "Monad Testnet",
   nativeCurrency: { name: "Monad", symbol: "MON", decimals: 18 },
   rpcUrls: {
     default: {
@@ -13,9 +13,9 @@ export const monadDevnet = defineChain({
   },
   blockExplorers: {
     default: {
-      name: "Monad Devnet Blockscout",
+      name: "Monad Testnet Blockscout",
       // TODO: Add Explorer URL
-      url: "<MONAD_BLOCKSCOUT_URL>",
+      url: "https://testnet.monadexplorer.com",
     },
   },
 });
