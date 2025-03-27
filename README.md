@@ -44,7 +44,7 @@ git clone https://github.com/monad-developers/scaffold-eth-monad.git
 cd scaffold-eth-monad && yarn install
 ```
 
-2. Setup `.env` file for Hardhat:
+3. Setup `.env` file for Hardhat:
 
 Make a copy of `.env.example` in `packages/hardhat` folder, name it `.env` and enter the respective values
 
@@ -55,7 +55,7 @@ MONAD_CHAIN_ID=
 MONAD_EXPLORER_URL=
 ```
 
-3. Deploying smart contracts on Monad:
+4. Deploying smart contracts on Monad:
 
 Once the `.env` file is setup, you can now run the below command in your terminal.
 
@@ -65,7 +65,7 @@ yarn deploy
 
 This command deploys a test smart contract to the Monad testnet network. The contract is located in `packages/hardhat/contracts` and can be modified to suit your needs. The `yarn deploy` command uses the deploy script located in `packages/hardhat/deploy` to deploy the contract to the network. You can also customize the deploy script.
 
-4. Setup `.env` file for Next.js app (optional):
+5. Setup `.env` file for Next.js app (optional):
 
 Make a copy of `.env.example` in `packages/nextjs` folder, name it `.env` and enter the respective values
 
@@ -73,7 +73,7 @@ Make a copy of `.env.example` in `packages/nextjs` folder, name it `.env` and en
 NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=
 ```
 
-5. On a second terminal, start your NextJS app:
+6. On a second terminal, start your NextJS app:
 
 ```
 yarn start
