@@ -35,7 +35,7 @@ To get started, follow the steps below:
 1. Clone this repo & install dependencies
 
 ```sh
-git clone https://github.com/monad-developers/scaffold-eth-monad.git
+git clone https://github.com/monad-developers/scaffold-eth-monad
 ```
 
 2. Open the project directory and install dependencies
